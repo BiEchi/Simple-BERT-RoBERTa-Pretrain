@@ -36,7 +36,7 @@ According to Google's [BERT releases](https://huggingface.co/google/bert_uncased
 
 ## Datasets
 
-We use the same datasets as BERT (English Wikipedia and Book Corpus) to pre-train for 30k steps with a batch size of 8,192. I also released the reproduction of this dataset at [JackBAI/bert_pretrain_datasets](https://huggingface.co/datasets/JackBAI/bert_pretrain_datasets). Note that this dataset is not pre-tokenizer or grouped so it might take some time the first time you load this dataset.
+We use the same datasets as BERT (English Wikipedia and Book Corpus) to pre-train. I released the reproduction of this dataset at [JackBAI/bert_pretrain_datasets](https://huggingface.co/datasets/JackBAI/bert_pretrain_datasets). Note that this dataset is not pre-tokenizer or grouped so it might take some time the first time you load this dataset.
 
 You can also use any other datasets you want.
 
