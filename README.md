@@ -1,6 +1,6 @@
-# 🔥 RoBERTa Pre-training from Scratch
+# 🔥 Simple RoBERTa Pre-training from Scratch
 
-HuggingFace reproduction of the BERT/RoBERTa pretraining from scratch, with memory optimization using DeepSpeed and BF16. Our implementation takes 4 days on 2*8 NVIDIA ADA-arch GPUs.
+HuggingFace reproduction of the BERT/RoBERTa pretraining from scratch, with memory optimization using DeepSpeed and BF16. Our implementation takes 4 days on 2*8 NVIDIA ADA-arch GPUs. You just need a script to run the whole pretraining.
 
 ## Environment Setup
 
